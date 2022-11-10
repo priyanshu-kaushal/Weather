@@ -30,5 +30,27 @@ body{
     border: none;
     height: 2.5rem;
     width: 2.5rem;
+    outline: none;
+    background: #7c7c7c2b;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.search-btn:hover{
+    background: #7c7c7c;
+}
+
+.city-search {
+    border: none;
+    outline: none;
+    padding: .5rem;
+    padding-left: 1rem;
+    border-radius: 1.25rem;
+    background: #7c7c7c2b;
+    color: white;
+    font-family: inherit;
+    font-size: 120%;
+    width: calc(100% - 50px) ;
 }
 
