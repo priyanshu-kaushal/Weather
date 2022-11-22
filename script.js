@@ -17,10 +17,8 @@ function getResults(query){
 }
 
 function displayResults(weather){
-    let cityName = document.querySelector('.location #city');
-    // city.innerText = `Weather in ${weather.name},${weather.sys.country}`;
-    //cityName.innerText = `weather in ${weather.name}, ${weather.sys.country} `
-    console.log(weather.name , weather.sys.country);
+    let cityName = document.querySelector('.location .city');
+    cityName.innerText = `weather in ${weather.name}, ${weather.sys.country} `
 
     let now = new Date();
     let date = document.querySelector('.current .date');
